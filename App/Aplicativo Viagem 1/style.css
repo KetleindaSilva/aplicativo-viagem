@@ -1,0 +1,518 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tela img {
+    width: 100vw;
+    height: 105vh;
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+
+.titulo1 {
+    background-color: #ffffff;
+    height: 8vh;
+    width: 100vw;
+}
+
+.tela .titulo1 h2 {
+    width: 20vw;
+    height: 6vh;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 15px;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    float: left;
+    color: #1F7BD9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo1 img {
+    width: 15vw;
+    text-align: center;
+    height: 6vh;
+    margin-left: 18vw;
+    margin-top: 1vh;
+    z-index: 0;
+}
+
+.titulo1 h3 {
+    width: 15vw;
+    height: 4vh;
+    color: #ffffff;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1vh;
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+    padding-left: 3vw;
+    border-radius: 8px;
+    margin-top: 2vh;
+    float: right;
+    margin-right: 8vw;
+
+}
+
+.tela .tituloo {
+    width: 100vw;
+    padding-top: 1vh;
+    font-family: 'Cabin';
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.71);
+}
+
+.tela .titulo2 h3 {
+    width: 45vw;
+    padding-top: 2.6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 4vw;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: #FFFFFF;
+
+}
+
+.tela .destaque {
+    flex-direction: row;
+    display: flex;
+}
+
+.tela .titulo3 h4 {
+    width: 39vw;
+    margin-left: 10vw;
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 2vh;
+    text-align: center;
+    color: #ffffff;
+    background: #3891EC;
+    border-radius: 4px;
+}
+
+.tela .viajantes h4 {
+    background-color: #FFFFFF;
+    width: 50vw;
+    margin-top: 0;
+    margin-left: 15vw;
+    text-align: right;
+
+}
+
+.tela .viajantes img {
+    width: 6vw;
+    height: 2.5vh;
+    position: absolute;
+    float: left;
+    z-index: 0;
+    opacity: 1.7;
+    margin-left: 8vw;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.viajantes {
+    border-color: #000000;
+    border-style: solid;
+    width: 80vw;
+    height: 5vh;
+    margin-left: 7vw;
+    margin-top: 1vh;
+    padding-top: 0.5vh;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 1vh;
+    width: 90vw;
+}
+
+.texto1 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto2 {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.viajpro img {
+    width: 23vw;
+    height: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    margin-top: 0.6vh;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.viajpro p {
+    width: 13vw;
+    font-size: 12px;
+    margin-top: 11vh;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.viajpro {
+    width: 25vw;
+    height: 16vh;
+    background-color: #1F7BD9;
+    margin-left: 6vw;
+    border-radius: 6px;
+}
+
+.viajpro1 {
+    width: 25vw;
+    height: 16vh;
+    background-color: #1F7BD9;
+    margin-left: 6vw;
+    border-radius: 6px;
+}
+
+.viajpro1 img {
+    width: 23vw;
+    height: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    margin-top: 0.6vh;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.viajpro1 p {
+    width: 13vw;
+    font-size: 12px;
+    margin-top: 11vh;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.viajantes1 {
+    border-color: #000000;
+    border-style: solid;
+    width: 80vw;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 7vw;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.viajantes1 h4 {
+    width: 40vw;
+    height: 2vh;
+    float: right;
+    margin-left: 40vw;
+    position: absolute;
+    margin-top: 1.3vh;
+}
+
+.viajantes1 h3 {
+    float: left;
+    margin-left: 6vw;
+    position: absolute;
+    padding-left: 3px;
+    border-radius: 50%;
+    background-color: #1F7BD9;
+    width: 4vw;
+    margin-top: 0.8vh;
+    height: 4vh;
+}
+
+.viajantes1 img {
+    width: 5vw;
+    height: 5vh;
+    float: left;
+    margin-left: 2vw;
+    z-index: 1;
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:580px) {
+    .tela {
+        width: 40vw;
+        height: 100vh;
+        margin-left: 35vw;
+        margin-right: 35vw;
+    }
+
+    .tela img {
+        width: 30vw;
+        height: 109vh;
+        position: absolute;
+        text-align: center;
+        z-index: -1;
+    }
+
+    .tela .titulo1 {
+        background-color: #FFFFFF;
+        margin-left: 0;
+        width: 30vw;
+    }
+
+    .tela .titulo1 h2 {
+        width: 4vw;
+        text-align: center;
+        padding-top: 1vh;
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: 1vh;
+        float: left;
+        color: #1F7BD9;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .titulo1 img {
+        width: 3vw;
+        text-align: center;
+        height: 4vh;
+        margin-top: 2vh;
+        margin-left: 8vw;
+        z-index: 0;
+    }
+
+    .titulo1 h3 {
+        width: 8vw;
+        height: 4vh;
+        color: #ffffff;
+        background-color: black;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 1vh;
+        padding-right: 1vw;
+        padding-bottom: 1vh;
+        padding-left: 1vw;
+        border-radius: 8px;
+        margin-top: 1.7vh;
+        float: right;
+        margin-right: 1vw;
+    }
+
+    .tela .tituloo {
+        width: 30vw;
+        padding-top: 1vh;
+        margin-top: 2vh;
+        font-family: 'Cabin';
+        font-style: normal;
+        text-align: center;
+        font-size: 18px;
+        opacity: 0.8;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #000000;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.71);
+    }
+
+    .tela .titulo2 h3 {
+        width: 10vw;
+        padding-top: 1.5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-align: left;
+        margin-left: 1.9vw;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        -webkit-text-stroke-width: 1.0px;
+        -webkit-text-stroke-color: #FFFFFF;
+
+    }
+
+    .tela .destaque {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .tela .titulo3 h4 {
+        width: 14vw;
+        margin-left: 2vw;
+        padding-top: 0.9vh;
+        padding-bottom: 1vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        margin-top: 3vh;
+        text-align: center;
+        color: #ffffff;
+        background: #3891EC;
+        border-radius: 4px;
+    }
+
+    .tela .viajantes h4 {
+        background-color: #FFFFFF;
+        width: 20vw;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: right;
+
+    }
+
+    .tela .viajantes img {
+        width: 4vw;
+        height: 2.5vh;
+        position: absolute;
+        float: left;
+        z-index: 0;
+        opacity: 1.7;
+        margin-left: 1vw;
+    }
+
+    button {
+        border: none;
+        background: none;
+    }
+
+    .viajantes {
+        border-color: #000000;
+        border-style: solid;
+        width: 26vw;
+        height: 5vh;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        padding-top: 0.5vh;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 10px;
+        padding-top: 1vh;
+        width: 30vw;
+    }
+
+    .texto1 {
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .texto2 {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .viajpro img {
+        width: 8vw;
+        height: 10vh;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        margin-bottom: 2vh;
+        margin-top: 0.6vh;
+        z-index: 1;
+        border-radius: 6px;
+    }
+
+    .viajpro p {
+        width: 9vw;
+        font-size: 10px;
+        margin-top: 11vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .viajpro {
+        width: 9vw;
+        height: 16vh;
+        background-color: #1F7BD9;
+        margin-left: 0.8vw;
+        border-radius: 6px;
+    }
+
+    .viajpro1 img {
+        width: 8vw;
+        height: 10vh;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        margin-bottom: 2vh;
+        margin-top: 0.6vh;
+        z-index: 1;
+        border-radius: 6px;
+    }
+
+    .viajpro1 p {
+        width: 9vw;
+        font-size: 10px;
+        margin-top: 11vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .viajpro1 {
+        width: 9vw;
+        height: 16vh;
+        background-color: #1F7BD9;
+        margin-left: 0.8vw;
+        border-radius: 6px;
+    }
+
+    .viajantes1 {
+        border-color: #000000;
+        border-style: solid;
+        width: 26vw;
+        height: 5vh;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        padding-top: 0.5vh;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    .viajantes1 h4 {
+        width: 10vw;
+        height: 2vh;
+        float: right;
+        margin-left: 12vw;
+        position: absolute;
+        margin-top: 0.3vh;
+    }
+
+    .viajantes1 h3 {
+        float: left;
+        margin-left: 3.0vw;
+        position: absolute;
+        padding-left: 0;
+        border-radius: 50%;
+        background-color: #1F7BD9;
+        width: 1.1vw;
+        margin-top: 0.4vh;
+        height: 2.6vh;
+    }
+
+    .viajantes1 img {
+        width: 2vw;
+        height: 3vh;
+        float: left;
+        margin-left: 1vw;
+        z-index: 1;
+        background-color: #000000;
+        padding: 2px;
+        border-radius: 50%;
+    }
+}
